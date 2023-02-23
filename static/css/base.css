@@ -1,0 +1,167 @@
+body {
+    font-family: 'Itim', cursive;
+    background-color: #daedf9;
+    padding: 55px;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(66,72,191,0.9576622885482318) 0%, rgba(0,212,255,1) 100%);
+    border-radius: 10px 10px 0 0;
+    color: white;    
+}
+
+.header h1 {
+    font-size: 18px;
+}
+
+.taskform {
+    text-align: center;
+    padding: 5px 0;
+    background: 0rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(66,72,191,0.9576622885482318) 0%, rgba(0,212,255,1) 100%);
+    border-radius: 10px 10px 0 0;
+    color: white;    
+}
+
+label {
+    display: block;
+}
+
+.top {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.TodoAppWarpper {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    box-shadow: 0px 5px 20px -5px #777777;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0px;
+}
+
+.tasklist {
+    display: flex;
+    flex-flow: column;
+    padding: 20px;
+    border-top: 1px solid #4646466a;
+}
+
+.taskmodel {
+    display: flex;
+}
+
+.taskcomplated {
+    height: 20px;
+    width: 20px;
+    background-color: #595959;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.taskincomplated {
+    height: 20px;
+    width: 20px;
+    background-color: lightskyblue;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.loginlogout {
+    padding: 20px;
+}
+
+.loginlogout a {
+    color: #777777;
+}
+
+
+.createbutton {
+    color:cornflowerblue;
+}
+
+.deleteButton {
+    color: rgb(236, 56, 24);
+}
+
+.model1 {
+    text-align: right;
+}
+
+.model2 {
+    text-align: right;
+}
+
+.searcwrapper {
+    display: flex;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+.searcinput {
+    height: 20px;
+    outline: none;
+    border: 1px solid #777777;
+    border-radius: 5px;
+    padding: 2px 4px;
+    width: 160px;
+}
+
+.searchbutton {
+    border: 1px solid lightsteelblue;
+    padding: 2px 6px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.4s;
+}
+
+.searchbutton:hover {
+    background-color: rgb(133, 185, 214);
+    color: white;
+}
+
+.taskbutton {
+    font-size: 38px;
+    color: lightskyblue;
+    margin: 0 0 0 auto;
+    padding-bottom: 0;
+}
+
+.delete {
+    border: 1px solid rgb(204, 74, 74);
+    padding: 2px 6px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.4s;
+}
+
+.delete:hover {
+    background-color: rgb(213, 37, 43);
+    color: white;
+}
+
+.account {
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.account p {
+    margin: 0;
+    padding: 0;
+}
